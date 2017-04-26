@@ -152,8 +152,8 @@ int main()
 		}
 
 		// output message of what the roman numeral is
-		cout<<"The roman numeral is: "<< roman_numeral<<endl;
-		cout<<""<<endl;
+		cout << "The roman numeral is: "<< roman_numeral <<endl;
+		cout << "" <<endl;
 
 		// sets the roman numeral input back to empty
 		roman_numeral = "";
@@ -161,9 +161,9 @@ int main()
 	}while (four_digit_number != -1);
 	// ends the do-while loop with while the digit entered is not -1
 
-	cout<<""<<endl;
-	cout<<"Thank you for using the Integer--Roman Numeral Tool."<<endl;
-	cout<<""<<endl;
+	cout << "" << endl;
+	cout << "Thank you for using the Integer--Roman Numeral Tool." << endl;
+	cout << "" << endl;
 
 	// pause the program
 	system ("pause");
